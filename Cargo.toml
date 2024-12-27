@@ -1,0 +1,8 @@
+[package]
+name = "physics2dBevyRapier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "*"
+bevy_rapier2d = { version = "*", features = [ "simd-stable", "debug-render-2d", "parallel" ] }
